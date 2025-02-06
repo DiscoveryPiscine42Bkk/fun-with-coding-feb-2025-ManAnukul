@@ -1,0 +1,18 @@
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: blanchedalmond;
+}
+
+#label {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+#dropdown {
+    font-size: 18px;
+    padding: 5px;
+    
+}
