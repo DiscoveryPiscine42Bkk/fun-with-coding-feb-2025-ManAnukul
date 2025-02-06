@@ -1,0 +1,40 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.text{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parallax1 {
+
+    background-image: url("./img/pic1.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blackbox{
+    height: 40%;
+    background-color: black;
+}
+
+#parallax2 {
+    background-image: url("./img/pic2.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
