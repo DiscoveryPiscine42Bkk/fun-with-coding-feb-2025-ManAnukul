@@ -149,7 +149,6 @@ body {
   padding: 120px 0;
   background: rgba(255, 255, 255, 0.05);
   align-content: center;
-  scroll-margin-top: 100px;
 }
 
 #experience h2 {
@@ -259,7 +258,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px; /* เพิ่มระยะห่าง */
+    gap: 15px;
   }
 
   .contact-info p {
@@ -284,6 +283,10 @@ body {
 
   #contact{
     scroll-margin-top: 70px;
+  }
+
+  #experience{
+    scroll-margin-top: 100px;
   }
   
 }
